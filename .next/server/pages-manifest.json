@@ -1,11 +1,13 @@
 {
   "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+  "/api/data": "pages/api/data.js",
+  "/api/hello": "pages/api/hello.js",
   "/api/popular": "pages/api/popular.js",
+  "/api/post/[postsId]": "pages/api/post/[postsId].js",
   "/api/post": "pages/api/post.js",
   "/api/trending": "pages/api/trending.js",
   "/": "pages/index.js",
-  "/posts/[postId]": "pages/posts/[postId].js",
-  "/api/post/[postsId]": "pages/api/post/[postsId].js"
+  "/_error": "pages/_error.js",
+  "/posts/[postId]": "pages/posts/[postId].js"
 }
